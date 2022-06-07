@@ -22,7 +22,7 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(
   kableExtra, #for building HTML or LaTeX tables using knitr
   bibtex, #bib parser for bibliography databases
-  fancyhdr # customaized header & footer lines with LaTeX
+  fancyhdr # customized header & footer lines with LaTeX
 )
 
 ```
